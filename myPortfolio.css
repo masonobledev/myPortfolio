@@ -1,0 +1,233 @@
+html, body {
+    height: 100%;
+    width: 100%;
+
+}
+
+.navbar {
+    padding: .8rem;
+}
+
+.navbar-nav li {
+    padding-right: 20px;
+}
+
+.nav-link {
+    font-size: 1.1em;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translate(25%);
+}
+
+.carousel-caption h1 {
+    font-size: 500%;
+    text-shadow: 1px 1px 10px #000;
+}
+
+.carousel-caption h3 {
+    font-size: 200%;
+    font-weight: 500%;
+}
+
+.jumbotron {
+    padding: 1rem;
+    border-radius: 0;
+}
+
+.padding { 
+    padding-bottom: 2rem;
+}
+
+.welcome {
+    width: 75%; 
+    margin: 0 auto;
+    padding-tip: 2rem;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+.fa-code {
+    color: #e54d26;
+    font-size: 4em;
+    margin: 1rem;
+}
+
+.fa-css3 {
+    color: #2163af;
+    font-size: 4em;
+    margin: 1rem;
+}
+
+.fa-js {
+    color: purple;
+    font-size: 4em;
+    margin: 1rem;
+}
+
+.social a {
+    font-size: 4.5em;
+    padding: 3rem;
+}
+
+.fa-file {
+    color: #3b5998;
+}
+
+.fa-twitter {
+    color: #00aced;
+}
+
+.fa-linkedin {
+    color: #0e76a8;
+}
+
+.fa-github {
+    color: #3e2c00;
+}
+
+.fa-file:hover, 
+.fa-twitter:hover, 
+.fa-linkedin:hover, 
+.fa-github:hover {
+    color: #d5d5d5;
+}
+
+footer {
+    background-color: #3f3f3f;
+    color: #d5d5d5;
+    padding-top: 2rem;
+
+}
+
+hr.light {
+    border-top: 1px solid #d5d5d5; 
+    width: 75%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+
+.img-fluid {
+    width: 400px;
+    height: auto;
+    border-radius:5px;
+
+}
+
+/* Formspree code */
+
+#fs-frm input,
+#fs-frm select,
+#fs-frm textarea,
+#fs-frm fieldset,
+#fs-frm optgroup,
+#fs-frm label,
+#fs-frm #card-element:disabled {
+  font-family: inherit;
+  font-size: 100%;
+  color: inherit;
+  border: none;
+  border-radius: 0;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+#fs-frm label,
+#fs-frm legend,
+#fs-frm ::placeholder {
+  font-size: .825rem;
+  margin-bottom: .5rem;
+  padding-top: .2rem;
+  display: flex;
+  align-items: baseline;
+}
+
+/* border, padding, margin, width */
+#fs-frm input,
+#fs-frm select,
+#fs-frm textarea,
+#fs-frm #card-element {
+  border: 1px solid rgba(0,0,0,0.2);
+  background-color: rgba(255,255,255,0.9);
+  padding: .75em 1rem;
+  margin-bottom: 1.5rem;
+}
+#fs-frm input:focus,
+#fs-frm select:focus,
+#fs-frm textarea:focus {
+  background-color: white;
+  outline-style: solid;
+  outline-width: thin;
+  outline-color: gray;
+  outline-offset: -1px;
+}
+#fs-frm [type="text"],
+#fs-frm [type="email"] {
+  width: 100%;
+}
+#fs-frm [type="button"],
+#fs-frm [type="submit"],
+#fs-frm [type="reset"] {
+  width: auto;
+  cursor: pointer;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+}
+#fs-frm [type="button"]:focus,
+#fs-frm [type="submit"]:focus,
+#fs-frm [type="reset"]:focus {
+  outline: none;
+}
+#fs-frm [type="submit"],
+#fs-frm [type="reset"] {
+  margin-bottom: 0;
+}
+#fs-frm select {
+  text-transform: none;
+}
+
+#fs-frm [type="checkbox"] {
+  -webkit-appearance: checkbox;
+  -moz-appearance: checkbox;
+  appearance: checkbox;
+  display: inline-block;
+  width: auto;
+  margin: 0 .5em 0 0 !important;
+}
+
+#fs-frm [type="radio"] {
+  -webkit-appearance: radio;
+  -moz-appearance: radio;
+  appearance: radio;
+}
+
+/* address, locale */
+#fs-frm fieldset.locale input[name="city"],
+#fs-frm fieldset.locale select[name="state"],
+#fs-frm fieldset.locale input[name="postal-code"] {
+  display: inline;
+}
+#fs-frm fieldset.locale input[name="city"] {
+  width: 52%;
+}
+#fs-frm fieldset.locale select[name="state"],
+#fs-frm fieldset.locale input[name="postal-code"] {
+  width: 20%;
+}
+#fs-frm fieldset.locale input[name="city"],
+#fs-frm fieldset.locale select[name="state"] {
+  margin-right: 3%;
+}
